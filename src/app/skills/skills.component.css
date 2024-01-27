@@ -1,14 +1,42 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.line {
+    content: '';
+    height: 8px;
+    width: 100px;
+    background-color: #fd8c91;
+
+}
+
+.skills-text {
+    max-width: 40%;
+}
+
+.skills-icons {
+    width: 100%;
+}
+
 img {
     height: 85px;
     width: 85px;
 }
 
 .card {
-    max-width: 40%;
-    height: 200px;
-    align-items: center;
+    /* max-width: 40%; */
+    height: 150px;
+    align-items: last baseline;
     justify-content: center;
     position: relative;
+    border-color: #f4eeeee4;
 
 }
 
