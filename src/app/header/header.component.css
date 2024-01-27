@@ -1,0 +1,51 @@
+.main {
+    border: 1px solid red;
+    width: 100%;
+    min-width: 0;
+    position: relative;
+
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-text {
+    border: 1px solid blue;
+    max-width: 50%;
+    min-width: 0;
+}
+
+img {
+    border: 1px solid grey;
+    height: 700px;
+    width: 500px;
+}
+
+.line {
+    content: '';
+    height: 15px;
+    width: 50%;
+    background-color: #fd8c91;
+}
+
+.social-bar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    bottom: 0;
+}
+
+.circle {
+    content: '';
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+img {
+    height: 85px;
+    width: 85px;
+}
+
+.card {
+    max-width: 40%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.card-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
