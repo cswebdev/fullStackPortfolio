@@ -33,9 +33,14 @@ img {
 
 .social-bar {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     position: absolute;
-    bottom: 0;
+    bottom: 0; */
+}
+
+a {
+    margin: 0px 5px;
+    padding: 0px 5px;
 }
 
 .circle {
@@ -47,4 +52,5 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
 }
