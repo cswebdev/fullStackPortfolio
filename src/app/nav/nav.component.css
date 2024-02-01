@@ -1,11 +1,23 @@
 .navbar {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.665);
+    /* position: absolute; */
+    width: 100%;
+    /* z-index: 1; */
 }
 
 .navbar-brand {
     border: 2px solid black;
     border-radius: 14px;
     padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item:hover .nav-link {
+    color: #e98293;
 }
 
 .btn-primary {
@@ -16,4 +28,9 @@
 .btn-primary:active {
     background-color: #e98293;
     border-color: #e98293;
+}
+
+#contact {
+    color: #e98293;
+    /* border: 1px solid red; */
 }

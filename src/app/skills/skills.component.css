@@ -6,7 +6,12 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    border: 1px solid red;
+    width: 100%;
+}
 
+.card-row {
+    margin: 20px;
 }
 
 .line {
@@ -17,9 +22,9 @@
 
 }
 
-.skills-text {
+/* .skills-text {
     max-width: 40%;
-}
+} */
 
 .skills-icons {
     width: 100%;
@@ -30,15 +35,7 @@ img {
     width: 85px;
 }
 
-.card {
-    /* max-width: 40%; */
-    height: 150px;
-    align-items: last baseline;
-    justify-content: center;
-    position: relative;
-    border-color: #f4eeeee4;
-
-}
+.card {}
 
 .card-title {
     position: absolute;

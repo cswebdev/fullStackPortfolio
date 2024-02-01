@@ -1,61 +1,109 @@
 .main {
-    border: 1px solid red;
+    /*  */
     width: 100%;
+    height: 40rem;
     min-width: 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* box-shadow: 8px 8px 0px #ff7bf4; */
+
 
 }
 
-.info-container {
+
+div.card {
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 75%;
+    height: 30rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* border: 0px solid transparent; */
+    /* background-color: #F9FBB2; */
+    /* box-shadow: 8px 8px 0px #ff7bf4; */
+
 }
 
-.hero-text {
-    border: 1px solid blue;
-    max-width: 50%;
-    min-width: 0;
+.card-body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-img {
-    border: 1px solid grey;
-    height: 700px;
-    width: 500px;
+.card-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* h1 {
+    color: #ff7bf4;
+    text-shadow: 2px 3px 1px rgba(51, 51, 51, 0.74);
+    
+} */
+
+.text-section {
+    padding: 20px;
+    border: 1px solid red;
+}
+
+
+
+
+.image-section img {
+    max-width: 400px;
+    height: 30rem;
+    overflow: hidden;
+    border: 0px solid transparent;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.social-bar {
+    position: absolute;
+    bottom: 0;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+a,
+button {
+    color: black;
+    /* margin: 0px 1px; */
+}
+
+button {
+    margin: 0px 5px;
 }
 
 .line {
     content: '';
     height: 15px;
     width: 50%;
-    background-color: #fd8c91;
-    margin-top: 5px;
-
-}
-
-.social-bar {
-    display: flex;
-    align-items: center;
-
+    background-color: #ff7bf4;
+    margin: 10px 0px;
+    position: absolute;
+    bottom: 0;
 }
 
 a {
     margin: 5px 5px;
     font-size: 42px;
-}
-
-button {
-    font-size: 25px;
-}
-
-.circle {
-    content: '';
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgb(237, 237, 237);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 10px;
 }

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { faSquareGithub, faLinkedin, faDev } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-header',
@@ -15,5 +14,12 @@ export class HeaderComponent {
   faLinkedin = faLinkedin;
   faDev = faDev;
 
+  title = "Hi, i'm Chelsea!"
+  subtitle = "Certified Full Stack Developer"
+  paragraph ="I am passionate about developing applications and creating solutions."
+
+
+  icons = [faSquareGithub, faLinkedin, faDev];
+  
 // end imported icons
 }

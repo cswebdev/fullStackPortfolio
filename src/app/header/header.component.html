@@ -1,29 +1,33 @@
 <div class="main container-fluid">
-    <div class="info-container">
-        <div class="hero-text">
-            <h1>Hello, i'm Chelsea</h1>
-            <h2>
-                Certified Full Stack Developer | Problem Solver | Innovator
-                <br> Passionate about building applications and crafting
-                solutions aimed at business growth.
-            </h2>
-            <div class="social-bar" style="border: 1px solid green;">
-                <a href="#">
-                    <fa-icon [icon]="faSquareGithub"></fa-icon>
-                </a>
-                <a href="#">
-                    <fa-icon [icon]="faLinkedin"></fa-icon>
-                </a>
-                <a href="#">
-                    <fa-icon [icon]="faDev"></fa-icon>
-                </a>
-                <button class="btn btn-outline-primary" style="height: 50%;">work with me</button>
+    <div class="card ">
+        <div class="card-body">
+            <div class="card-content">
+                <div class="text-section">
+                    <h1>{{title}}</h1>
+                    <h2>
+                        {{subtitle}}
+                    </h2>
+                    <h2>
+                        {{paragraph}}
+                    </h2>
+                    <div class="social-bar">
+                        <a href="#">
+                            <fa-icon [icon]="faSquareGithub"></fa-icon>
+                        </a>
+                        <a href="#">
+                            <fa-icon [icon]="faLinkedin"></fa-icon>
+                        </a>
+                        <a href="#">
+                            <fa-icon [icon]="faDev"></fa-icon>
+                        </a>
+                        <button class="btn btn-outline-dark">Resume</button>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="../../assets/selfie.jpg" alt="">
+                </div>
             </div>
+        </div>
 
-            <div class="line"></div>
-        </div>
-        <div class="hero-img">
-            <img src="#" alt="">
-        </div>
     </div>
 </div>
