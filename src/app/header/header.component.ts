@@ -14,7 +14,7 @@ export class HeaderComponent {
   faLinkedin = faLinkedin;
   faDev = faDev;
 
-  title = "Hi, i'm Chelsea!"
+  title = "Hi, i'm Christin!"
   subtitle = "Certified Full Stack Developer"
   paragraph ="I am passionate about developing applications and creating solutions."
 
